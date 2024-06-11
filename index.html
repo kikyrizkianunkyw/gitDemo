@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevoU Berlin</title>
+</head>
+<body>
+    <header>
+        <h1>INI HALAMAN KEBUN BINATANG</h1>
+        <p>This is an app about the most beautiful creature in the world</p>
+        <nav>
+            <a href=""></a>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!-- <section>
+            <div>
+                <h2>Kucing</h2>
+                <ul>
+                    <li>Nama : kitty</li>
+                    <li>Jenis : Kucing</li>
+                    <li>Kelamin : Jantan</li>
+                </ul>
+                <figure>
+                    <img src="https://search.app.goo.gl/21TB6wU">
+                    <figcaption>Video Kucingnya</figcaption>
+                </figure>
+            </div>
+        </section> -->
+        <table border="1" cellspacing="5" width="100%">
+            <tr>
+                <th>Jenis Hewan</th>
+                <th>Umur</th>
+                <th colspan="2">Gambar</th>
+            </tr>
+            <tr>
+                <td>Kucing</td>
+                <td>1 bulam</td>
+                <td><img src="https://th.bing.com/th/id/OIP.8oDSA0pY4gfYJaUFyJQrGQHaFc?rs=1&pid=ImgDetMain" alt="Kucing" width="70px"></td>
+                <td><img src="https://th.bing.com/th/id/OIP.8oDSA0pY4gfYJaUFyJQrGQHaFc?rs=1&pid=ImgDetMain" alt="Kucing" width="70px"></td>
+            </tr>
+            <tr>
+                <td>Singa</td>
+                <td>8 tahun</td>
+                <td><img src="https://th.bing.com/th/id/R.d490befffa89c9a5d8e3236ff9c80d6b?rik=SdIZqR6%2bCZ84LQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-5hit9j2Z1p8%2fTn6Ok2n0MAI%2fAAAAAAAAGVg%2fI79fRuJLbUo%2fs1600%2fAfrican-Lion-Tanzania-Africa.jpg&ehk=4cJUgRchWQMGGRDWs3h8tZCBokMaZNwDZzujtBbSyHk%3d&risl=&pid=ImgRaw&r=0" alt="singa" width="70px"></td>
+            </tr>
+        </table>
+        <hr>
+        <div>
+            <form action="/input" method="get">
+                <label for="nama_animal">Nama Hewan</label><br>
+                <input type="text" name="nama_animal" id="nama_animal" placeholder="tambahkan nama hewan"><br>
+
+                <label for="email_pic">Email Pic</label><br>
+                <input type="email" name="nama_email" id="email_pic" placeholder="tambahkan email"><br>
+                <input type="submit"><br>
+
+                <label for="description">Description</label><br>
+                <textarea name="description" id="description" cols="30" rows="10">Deskripsi</textarea><br>
+
+                <label for="jenis">Jenis Hewan</label>
+                <select name="jenis" id="jenis">
+                    <option>Mamalia</option>
+                    <option>Ambifi</option>
+                    <optgroup label="hewan yang rada geli">
+                        <option value="ambifi"> hewan ambifi</option>
+                        <option value="invertebrata"> hewan invertebrata</option>
+                    </optgroup>
+                </select><br>
+
+                <p>Input Gender</p>
+                <input type="radio" name="laki" id="laki"><label for=" laki">Laki-laki</label><br>
+                <input type="radio" name="perempuan" id="perempuan"><label for=" perempuan">Perempuan</label><br>
+                <input type="radio" name="none" id="none"><label for=" none">Prefer not to say</label><br><br>
+
+                <p>Info Kelengkapan</p>
+                <input type="checkbox" name="kelengkapan" id="data1" value="data1"><label for="data1">Data1</label><br>
+
+                <button type="submit">Submit data</button>
+                <button type="reset">Reset data</button>
+            </form>
+        </div>
+    </main>
+   
+</body>
+</html>
